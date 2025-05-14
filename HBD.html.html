@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สุขสันต์วันเกิดที่รัก 💖</title>
+  <style>
+    body {
+      font-family: 'Kanit', sans-serif;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #d63384;
+    }
+    p {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    .heart {
+      color: red;
+      font-size: 2em;
+      animation: heartbeat 1s infinite;
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    .btn {
+      margin-top: 40px;
+      background: #d63384;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+    .message {
+      display: none;
+      margin-top: 30px;
+      font-size: 1.3em;
+      color: #444;
+      background: #fff5f7;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>สุขสันต์วันเกิดนะคะคนดีของเค้า 🎉</h1>
+  <p>ขอให้ปีนี้ต้าวมีความสุขและมีรอยยิ้ม ในทุกๆวัน <span class="heart">❤️</span></p>
+
+  <button class="btn" onclick="showMessage()">คลิกเพื่อรับข้อความพิเศษ</button>
+
+  <div class="message" id="specialMessage">
+    รักนะคะ ขอบคุณที่เราได้รู้จักกัน  
+    ขอให้ปีนี้เป็นปีที่ดีของเทอ มีแต่เรื่องดี ๆ  
+    สุขภาพแข็งแรง สมหวังในทุกสิ่ง 💕  
+    <br><br>
+    จาก... ยุพาาา ของต้าว 💌
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('specialMessage').style.display = 'block';
+    }
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+
